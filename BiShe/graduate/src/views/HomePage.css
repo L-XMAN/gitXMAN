@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.BigBox {
+    margin: 0 auto;
+    width: 1897px;
+    /* width: 100%; */
+    background: rgb(226, 208, 208);
+    height: auto;
+}
+
+
+.NavigationBox {
+    z-index: 99;
+    position: fixed;
+    float: left;
+    width: 380px;
+    height: 958px;
+    background: rgb(255, 255, 255);
+}
+
+.LogoBox {
+    margin: 100px auto 20px;
+    /* float: left; */
+    max-width: 366px;
+    max-height: 100px;
+    background: rgb(255, 255, 255);
+}
+
+.NavigationBar {
+    margin: 100px auto 20px;
+    width: 60%;
+    height: 360px;
+    background: rgb(255, 255, 255);
+}
+
+ul li {
+    text-align: center;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 120px;
+}
+
+a {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "黑体";
+    line-height: 120px;
+    color: gray;
+}
+
+/* a:active {
+    color: #3ea77e;
+} */
+
+.hover {
+    color: #3ea77e;
+}
+
+.ContactBox {
+    margin: 100px auto 10px;
+    width: 60%;
+    height: 50px;
+    background: rgb(255, 255, 255);
+}
+
+.WeChatSmallContactBox {
+    cursor: pointer;
+    margin: 12.5px 25px;
+    float: left;
+    background: #ffffff;
+    width: 26px;
+    height: 25px;
+}
+
+.WeChatSmallContactBox:hover .WeChat {
+    display: block;
+}
+
+.QQSmallContactBox {
+    cursor: pointer;
+    margin: 12.5px 25px;
+    float: left;
+    /* background: #fcfcfc; */
+    width: 26px;
+    height: 25px;
+}
+
+.QQSmallContactBox:hover .QQ {
+    display: block;
+}
+
+.EmaillSmallContactBox {
+    cursor: pointer;
+    margin: 12.5px 25px;
+    float: left;
+    /* background: #fcfcfc; */
+    width: 26px;
+    height: 25px;
+}
+
+.EmaillSmallContactBox:hover .Email {
+    display: block;
+}
+
+.QRcodeBox {
+    margin: 0 auto;
+    /* background: #fcfcfc; */
+    width: 120px;
+    height: 120px;
+}
+
+.WeChat {
+    display: none;
+    position: relative;
+    top: 25px;
+    left: -25px;
+    /* background: #88b3d6; */
+    width: 75px;
+    height: 75px;
+    /* visibility: hidden; */
+    /* transition: opacity 0.3s ease-in-out; */
+}
+
+
+.QQ {
+    display: none;
+    position: relative;
+    top: 25px;
+    left: -25px;
+    background: #88b3d6;
+    width: 75px;
+    height: 75px;
+}
+
+.Email {
+    display: none;
+    position: relative;
+    top: 25px;
+    left: -25px;
+    background: #88b3d6;
+    width: 75px;
+    height: 75px;
+}
+
+.ContentBar {
+    position: relative;
+    float: right;
+    /* width: 1518px; */
+    width: 80%;
+    height: 958px;
+    background: rgb(255, 255, 255);
+}

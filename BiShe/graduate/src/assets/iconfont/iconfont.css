@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "iconfont";
+  /* Project id  */
+  src: url('iconfont.ttf?t=1715333993644') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 25px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-weixin:before {
+  content: "\f0106";
+}
+
+.icon-youxiang:before {
+  content: "\e694";
+}
+
+.icon-QQ:before {
+  content: "\e882";
+}
+
+/* .iconfont :hover .WeChat{
+  display: block;
+} */

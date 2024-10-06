@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.PhotoalbumBox {
+    position: absolute;
+    padding: 40px 25px 50px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+}
+
+.PhotoFramesli {
+    box-shadow: 0px 10px 20px grey;
+    position: relative;
+    margin: 25px 0px;
+    padding: 30px;
+    background: white;
+    width: auto;
+    height: auto;
+}
+
+.photo {
+    position: relative;
+    margin: 0 auto;
+    width: auto;
+    height: 300px;
+}
+
+/* .briefly {
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+} */

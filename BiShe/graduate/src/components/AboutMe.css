@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.AboutMeBox {
+    /* position: absolute; */
+    width: 100%;
+    height: 958px;
+    background: rgb(255, 255, 255);
+    padding: 0px 0px;
+}
+
+.MePhoto {
+    float: left;
+    /* position: relative; */
+    width: auto;
+    height: 700px;
+    /* background: red; */
+    margin: 120px 0px 120px 80px;
+    /* padding: 90px; */
+
+}
+
+.MePhoto img {
+    border-radius: 50px 50px / 50px;
+    box-shadow: 0px 10px 20px grey;
+
+}
+
+.MeIntroduce {
+    float: right;
+    width: 63.5%;
+    height: 700px;
+    /* background: rgb(168, 38, 15); */
+    margin: 120px 50px;
+    ;
+}
+
+.About {
+    padding: 30px 0px 30px 0px;
+    width: 100%;
+    height: 280px;
+    border-radius: 50px 50px / 50px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 10px 20px grey;
+
+}
+
+.AboutMeBox h1 {
+    text-align: center;
+}
+
+.Text {
+    margin: 30px 30px;
+}
+
+.MeIntroduce p {
+    font-size: 25px;
+    font-weight: 900;
+    font-family: "黑体";
+}
+
+.WorkExperienceBox {
+    /* position: relative; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 360px;
+    /* background: palegreen; */
+}
+
+.WorkExperience {
+    padding: 0px 30px;
+    width: 400px;
+    height: 320px;
+    background: rgb(255, 255, 255);
+    border-radius: 50px 50px / 50px;
+    margin: 40px 0px 0px 0px;
+    box-shadow: 0px 10px 20px grey;
+}
+.WorkExperienceTEXT h2{
+    text-align: center;
+    padding: 20px;
+}
+.WorkExperienceTEXT p{
+    margin: 0 auto;
+}
