@@ -1,7 +1,11 @@
 <template>
   <div class="BigBox">
-    frs
-    <div class="loginBox"></div>
+    <div class="loginBox">
+      <div class="loginText">管理员登录</div>
+      <div class="inputBox">
+        <input type="text" />
+      </div>
+    </div>
   </div>
 </template>
 
