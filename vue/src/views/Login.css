@@ -57,3 +57,20 @@ input {
     letter-spacing: 3px;
     text-shadow: 1px 1px #01f7ff;
 }
+
+button {
+    padding-top: 70p;
+    font-size: 30px;
+    line-height: 40px;
+    width: 50%;
+    background: #01f7ff;
+    /* color: white; */
+    border: #01f7ff;
+    clip-path: polygon(0% 0, 100% 0, 100% 60%, 88% 100%, 0 100%, 0 0%);
+}
+
+button:hover {
+    background: rgb(73, 230, 94);
+    box-shadow: 20px 20px 20px red;
+    color: #ffffff;
+}

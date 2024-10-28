@@ -5,6 +5,7 @@
       <div class="inputBox">
         <input type="text" placeholder="账号" />
         <input type="password" placeholder="密码" />
+        <button>登录</button>
       </div>
     </div>
   </div>
