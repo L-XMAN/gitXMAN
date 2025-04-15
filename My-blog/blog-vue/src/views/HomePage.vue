@@ -1,5 +1,9 @@
 <template>
-  <div>这里是主页</div>
+  <div class="HomePage">
+    <section>1</section>
+    <section>2</section>
+    <section>3</section>
+  </div>
 </template>
 
 <script>
@@ -7,4 +11,5 @@
 </script>
 
 <style>
+@import "HomePage.css";
 </style>

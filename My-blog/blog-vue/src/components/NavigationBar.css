@@ -1,0 +1,65 @@
+.NavigationBar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+a {
+    color: black;
+    width: auto;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px 30px;
+}
+
+.active {
+    color: #42b983;
+}
+
+ul {
+    display: flex;
+    height: 50px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.nav-link {
+    position: relative;
+    padding: 8px 16px;
+    transition: all 0.3s ease;
+    color: #333;
+}
+
+/* 高亮样式 */
+.nav-link.active {
+    color: #42b983;
+    font-weight: bold;
+}
+
+/* 点击动画效果 */
+.nav-link:active {
+    transform: scale(0.95);
+}
+
+/* 或者使用伪元素实现下划线动画 */
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: #42b983;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    left: 0;
+    width: 100%;
+}

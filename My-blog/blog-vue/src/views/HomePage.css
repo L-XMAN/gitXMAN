@@ -1,0 +1,26 @@
+.HomePage {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    /* overflow-y: visible; */
+    /* overflow: hidden; */
+    height: calc(100vh - 50px);
+}
+
+section {
+    scroll-snap-align: start;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background: saddlebrown;
+    background-image: url(../assets/img/bg.png);
+    background-size: contain;
+}
+
+
+/*去下拉条*/
+::-webkit-scrollbar {
+    width: 0 !important;
+    /* width: 0 !important; */
+    height: 0;
+}
+
+::-webkit-scrollbar {}

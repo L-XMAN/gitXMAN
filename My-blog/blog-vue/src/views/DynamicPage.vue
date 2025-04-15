@@ -1,5 +1,5 @@
 <template>
-  <div>这里是测试页</div>
+  <div>这里是动语页</div>
 </template>
 
 <script>
