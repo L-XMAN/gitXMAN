@@ -10,11 +10,106 @@ section {
     scroll-snap-align: start;
     width: 100%;
     height: calc(100vh - 50px);
-    background: saddlebrown;
-    background-image: url(../assets/img/bg.png);
+    /* background: saddlebrown; */
+    /* background-image: url(../assets/img/bg.png); */
     background-size: contain;
 }
 
+.GradientBackground {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+    background-color: #ffbaba;
+    max-height: 100vh;
+    /* width: 100vh; */
+    background-image:
+        radial-gradient(closest-side, rgb(111, 204, 216), rgba(125, 238, 241, 0)),
+        radial-gradient(closest-side, rgb(93, 136, 201), rgba(136, 248, 233, 0)),
+        radial-gradient(closest-side, rgb(196, 78, 78), rgba(124, 157, 228, 0)),
+        radial-gradient(closest-side, rgb(190, 140, 83), rgba(235, 118, 176, 0)),
+        radial-gradient(closest-side, rgb(151, 214, 142), rgba(238, 128, 107, 0));
+    background-size:
+        40vmax 40vmax,
+        50vmax 50vmax,
+        50vmax 60vmax,
+        80vmax 80vmax,
+        50vmax 50vmax;
+    background-position:
+        50vmax 50vmax,
+        40vmax 20vmax,
+        20vmax 50vmax,
+        0vmax 0vmax,
+        0vmax 0vmax;
+    background-repeat: no-repeat;
+    animation: 10s movement linear infinite;
+}
+
+@keyframes movement {
+
+    0%,
+    100% {
+        background-size:
+            130vmax 130vmax,
+            80vmax 80vmax,
+            90vmax 90vmax,
+            110vmax 110vmax,
+            90vmax 90vmax;
+        background-position:
+            -80vmax -80vmax,
+            60vmax -30vmax,
+            10vmax 10vmax,
+            -30vmax -10vmax,
+            50vmax 50vmax;
+    }
+
+    25% {
+        background-size:
+            110vmax 110vmax,
+            100vmax 190vmax,
+            80vmax 90vmax,
+            120vmax 120vmax,
+            80vmax 80vmax;
+        background-position:
+            -70vmax -90vmax,
+            50vmax -40vmax,
+            0vmax 20vmax,
+            -40vmax 0vmax,
+            30vmax 40vmax;
+    }
+
+    50% {
+        background-size:
+            120vmax 120vmax,
+            120vmax 170vmax,
+            90vmax 80vmax,
+            110vmax 110vmax,
+            90vmax 90vmax;
+        background-position:
+            -60vmax -100vmax,
+            60vmax -50vmax,
+            30vmax 30vmax,
+            -30vmax 20vmax,
+            20vmax 50vmax;
+    }
+
+    75% {
+        background-size:
+            110vmax 110vmax,
+            125vmax 160vmax,
+            100vmax 90vmax,
+            100vmax 100vmax,
+            80vmax 80vmax;
+        background-position:
+            -70vmax -90vmax,
+            70vmax -60vmax,
+            30vmax 20vmax,
+            -30vmax 30vmax,
+            40vmax 40vmax;
+    }
+}
 
 /*去下拉条*/
 ::-webkit-scrollbar {
@@ -23,4 +118,14 @@ section {
     height: 0;
 }
 
-::-webkit-scrollbar {}
+/* ::-webkit-scrollbar {} */
+
+
+.WelcomeText {
+    font-size: 100px;
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+    opacity: 0.4;
+    text-shadow: 5px 5px 0px rgba(58, 58, 58, 0.3);
+}

@@ -1,6 +1,10 @@
 <template>
   <div class="HomePage">
-    <section>1</section>
+    <section class="GradientBackground">
+      <div class="WelcomeText">WELCOME</div>
+      <div class="WelcomeText">TO MY</div>
+      <div class="WelcomeText">WEBSITE</div>
+    </section>
     <section>2</section>
     <section>3</section>
   </div>
