@@ -1,42 +1,46 @@
-.NavigationBar {
-    position:absolute;
-    top: 0px;
+.TopBar {
     width: 100%;
-    max-width: 2400px;
-    min-width: 375px;
+    height: 60px;
+    background-color: rgb(52, 167, 199);
+}
+
+.Title {
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    width: auto;
+    line-height: 60px;
+    width: 450px;
+    text-align: center;
+
+}
+
+.BigBox {
+    width: 100%;
+    height: 890px;
     display: flex;
     justify-content: center;
-    height: auto;
-    z-index: 10;
-}
-
-a {
-    color: black;
-    width: auto;
-    display: flex;
     align-items: center;
-    font-size: 25px;
-    font-weight: bold;
-    margin: 0px 30px;
+}
+.NavigationBar {
+    width: 10%;
+    height: 100%;
+    background: black;
 }
 
-.active {
-    color: #42b983;
-}
-
-ul {
+.NavigationBar ul{
+    /* background: sandybrown; */
     display: flex;
-    height: 50px;
-    /* justify-content: center; */
-    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
     
 }
-
-.nav-link {
+.nav-link{
     position: relative;
     padding: 8px 16px;
     transition: all 0.3s ease;
-    color: #333;
+    color: #ffffff;
+    text-align: center;
 }
 
 /* 高亮样式 */
@@ -51,7 +55,7 @@ ul {
 }
 
 /* 或者使用伪元素实现下划线动画 */
-.nav-link::after {
+/* .nav-link::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -60,15 +64,15 @@ ul {
     height: 2px;
     background: #42b983;
     transition: all 0.3s ease;
-}
+} */
 
 .nav-link:hover::after,
 .nav-link.active::after {
     left: 0;
     width: 100%;
 }
-
-
-.ContentBox{
-    z-index: 1;
+.ContentBox {
+    width: 90%;
+    height: 100%;
+    background-color: rgb(233, 233, 233);
 }

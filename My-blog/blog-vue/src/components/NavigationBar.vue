@@ -11,7 +11,7 @@
       >
     </ul>
   </div>
-  <div>
+  <div class="ContentBox">
     <router-view></router-view>
   </div>
 </template>

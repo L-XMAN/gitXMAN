@@ -27,7 +27,7 @@ img {
   max-width: 2400px;
   min-width: 375px;
   margin: 0 auto;
-
+  height: 957px;
   /* text-align: center; */
   /* color: #2c3e50; */
   /* display: flex; */

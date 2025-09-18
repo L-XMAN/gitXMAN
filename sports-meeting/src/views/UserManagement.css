@@ -1,0 +1,327 @@
+/* 基础样式 */
+.user-management {
+    /* max-width: 1400px; */
+    margin: 0px auto;
+    padding: 20px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.page-title {
+    color: #2c3e50;
+    text-align: left;
+    margin: 0px;
+    border-bottom: 1px solid #eee;
+}
+
+/* 搜索区域样式 */
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+}
+
+.search-input {
+    flex: 1;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.search-input:focus {
+    border-color: #5b9bd5;
+    outline: none;
+}
+
+.search-btn,
+.reset-btn,
+.add-btn {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+.search-btn {
+    background-color: #5b9bd5;
+    color: white;
+}
+
+.search-btn:hover {
+    background-color: #4a8bc5;
+}
+
+.reset-btn {
+    background-color: #eaeaea;
+    color: #555;
+}
+
+.reset-btn:hover {
+    background-color: #e0e0e0;
+}
+
+.add-btn {
+    background-color: #70ad47;
+    color: white;
+    margin-left: auto;
+}
+
+.add-btn:hover {
+    background-color: #609d3c;
+}
+
+/* 表格样式 */
+.table-wrapper {
+    overflow-x: auto;
+    margin-bottom: 0px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.user-table th,
+.user-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.user-table th {
+    background-color: #f5f5f5;
+    font-weight: 600;
+    color: #444;
+}
+
+.table-row:hover {
+    background-color: #f9f9f9;
+}
+
+.status-enabled {
+    display: inline-block;
+    padding: 3px 8px;
+    background-color: #dff0d8;
+    color: #3c763d;
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+.status-disabled {
+    display: inline-block;
+    padding: 3px 8px;
+    background-color: #f2dede;
+    color: #a94442;
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+.action-cell {
+    display: flex;
+    gap: 8px;
+}
+
+.enable-btn,
+.disable-btn,
+.edit-btn,
+.delete-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: opacity 0.2s;
+}
+
+.enable-btn {
+    background-color: #70ad47;
+    color: white;
+}
+
+.disable-btn {
+    background-color: #faa732;
+    color: #fff;
+}
+
+.edit-btn {
+    background-color: #337ab7;
+    color: white;
+}
+
+.delete-btn {
+    background-color: #d9534f;
+    color: white;
+}
+
+.enable-btn:hover,
+.disable-btn:hover,
+.edit-btn:hover,
+.delete-btn:hover {
+    opacity: 0.9;
+}
+
+.no-data {
+    text-align: center;
+    color: #777;
+    padding: 40px;
+    font-style: italic;
+}
+
+/* 分页样式 */
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0 10px;
+    color: #666;
+}
+
+.page-btn {
+    padding: 6px 12px;
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.page-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.page-btn:not(:disabled):hover {
+    border-color: #5b9bd5;
+    color: #5b9bd5;
+}
+
+.page-info {
+    font-size: 14px;
+}
+
+/* 表单区域样式 */
+.form-container {
+    margin-top: 0px;
+    padding: 0px 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    background-color: #fcfcfc;
+}
+
+.form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    /* margin-bottom: 5px; */
+    /* padding-bottom: 15px; */
+    border-bottom: 1px solid #eee;
+}
+
+.form-title {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 15px;
+}
+
+.form-close-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #777;
+}
+
+.form-close-btn:hover {
+    color: #333;
+}
+
+.user-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.form-row {
+    display: flex;
+    gap: 50px;
+}
+
+.form-group {
+    flex: 1;
+    margin-bottom: 0px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #555;
+    font-size: 14px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 9px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.form-input:focus {
+    border-color: #5b9bd5;
+    outline: none;
+}
+
+.radio-group {
+    display: flex;
+    gap: 15px;
+    padding: 5px 0;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    /* margin-top: 15px; */
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+.submit-btn,
+.cancel-btn {
+    padding: 9px 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.submit-btn {
+    background-color: #5b9bd5;
+    color: white;
+}
+
+.cancel-btn {
+    background-color: #eaeaea;
+    color: #555;
+}

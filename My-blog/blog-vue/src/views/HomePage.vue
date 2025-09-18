@@ -5,7 +5,18 @@
       <div class="WelcomeText">TO MY</div>
       <div class="WelcomeText">WEBSITE</div>
     </section>
-    <section>2</section>
+    <section class="AboutMeSection">
+      <div class="AboutMe">
+        <!-- 照片 -->
+        <div class="MyPhoto">
+          <img src="../assets/img/XMAN.png" alt="" height="100%">
+        </div>
+        <!-- 介绍 -->
+        <div class="Introduce">
+          <strong>Hi ndio iON O FNOWNONV </strong>
+        </div>
+      </div>
+    </section>
     <section>3</section>
   </div>
 </template>
